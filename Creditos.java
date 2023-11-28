@@ -8,7 +8,7 @@ public class Creditos {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         // Load image from URL (replace URL with the path to your image)
-        ImageIcon imageIcon = createResizedImageIcon("logo.jpeg", 200, 100);
+        ImageIcon imageIcon = createResizedImageIcon("logo.jpeg", 150, 75);
         JLabel imageLabel = new JLabel(imageIcon);
 
         // Create text labels
@@ -17,6 +17,8 @@ public class Creditos {
         JLabel textLabel3 = new JLabel("Alberto Morales Vizcarra 0230866");
         JLabel textLabel4 = new JLabel("Fundamentos de Programacion en Paralelo");
         JLabel textLabel5 = new JLabel("Juan Carlos Lopez Pimentel");
+        JLabel textLabel6 = new JLabel("Ingenieria en Sistemas y Graficas Computacionales");
+        JLabel textLabel7 = new JLabel("28 noviembre de 2023");
 
         // Create a panel with a GridLayout to arrange components in a grid
         JPanel panel = new JPanel(new GridLayout(0, 1)); // 0 means any number of rows, 1 column
@@ -26,6 +28,8 @@ public class Creditos {
         panel.add(textLabel3);
         panel.add(textLabel4);
         panel.add(textLabel5);
+        panel.add(textLabel6);
+        panel.add(textLabel7);
 
         // Add the panel to the frame
         frame.add(panel);
